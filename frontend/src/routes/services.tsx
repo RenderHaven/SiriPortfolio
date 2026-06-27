@@ -32,17 +32,19 @@ export const Route = createFileRoute("/services")({
 
 function ServicesPage() {
   return (
-    <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
-      <header className="mb-14 max-w-2xl">
-        <p className="text-[11px] uppercase tracking-[0.4em] text-primary">
-          Packages
+    <div className="mx-auto max-w-[1400px] px-6 pb-24 pt-32 md:pt-40">
+      <header className="mb-16 max-w-3xl">
+        <p className="text-[10px] uppercase tracking-[0.4em] text-primary">
+          ✱ Packages
         </p>
-        <h1 className="mt-3 font-display text-5xl md:text-6xl">
-          Crafted for the day, kept for a lifetime.
+        <h1 className="mt-4 font-display text-6xl font-bold leading-[0.9] tracking-tight md:text-8xl">
+          Crafted for the day,
+          <br />
+          <span className="italic text-stroke">kept for a lifetime.</span>
         </h1>
-        <p className="mt-5 text-muted-foreground">
-          Choose a starting point — we tailor each engagement to your
-          venue, hours and the people you want remembered.
+        <p className="mt-6 max-w-lg text-muted-foreground">
+          Choose a starting point — we tailor each engagement to your venue,
+          hours and the people you want remembered.
         </p>
       </header>
       <Suspense

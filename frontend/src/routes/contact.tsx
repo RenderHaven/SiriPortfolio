@@ -90,13 +90,17 @@ function ContactPage() {
       setForm((f) => ({ ...f, [k]: e.target.value }));
 
   return (
-    <div className="mx-auto grid max-w-6xl gap-16 px-6 py-16 md:grid-cols-[1.4fr_1fr] md:py-24">
+    <div className="mx-auto grid max-w-[1400px] gap-16 px-6 pb-24 pt-32 md:grid-cols-[1.4fr_1fr] md:pt-40">
       <div>
-        <p className="text-[11px] uppercase tracking-[0.4em] text-primary">
-          Begin the conversation
+        <p className="text-[10px] uppercase tracking-[0.4em] text-primary">
+          ✱ Begin the conversation
         </p>
-        <h1 className="mt-3 font-display text-5xl">Tell us about your day.</h1>
-        <p className="mt-4 max-w-md text-muted-foreground">
+        <h1 className="mt-4 font-display text-5xl font-bold leading-[0.95] tracking-tight md:text-7xl">
+          Let&apos;s create something
+          <br />
+          <span className="italic text-stroke">extraordinary.</span>
+        </h1>
+        <p className="mt-5 max-w-md text-muted-foreground">
           A few details help us reply with the right information. Every
           enquiry reaches us directly.
         </p>

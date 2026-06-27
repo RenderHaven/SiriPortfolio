@@ -36,12 +36,14 @@ export const Route = createFileRoute("/portfolio")({
 
 function PortfolioPage() {
   return (
-    <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
-      <header className="mb-12">
-        <p className="text-[11px] uppercase tracking-[0.4em] text-primary">
-          The archive
+    <div className="mx-auto max-w-[1400px] px-6 pb-24 pt-32 md:pt-40">
+      <header className="mb-16 max-w-3xl">
+        <p className="text-[10px] uppercase tracking-[0.4em] text-primary">
+          ✱ The archive
         </p>
-        <h1 className="mt-3 font-display text-5xl md:text-6xl">Portfolio</h1>
+        <h1 className="mt-4 font-display text-6xl font-bold leading-[0.9] tracking-tight md:text-8xl">
+          Portfolio
+        </h1>
       </header>
       <Suspense
         fallback={<p className="text-sm text-muted-foreground">Loading…</p>}
